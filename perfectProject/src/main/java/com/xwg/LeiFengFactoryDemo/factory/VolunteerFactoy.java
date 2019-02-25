@@ -1,14 +1,14 @@
 package com.xwg.LeiFengFactoryDemo.factory;
 
 import com.xwg.LeiFengFactoryDemo.person.LeiFeng;
-import com.xwg.LeiFengFactoryDemo.person.Student;
+import com.xwg.LeiFengFactoryDemo.person.Volunteer;
 
 /**
  * Created by Administrator on 2017/4/10.
  */
-public class StudentFactory implements ILeiFengFactory {
+public class VolunteerFactoy implements ILeiFengFactory {
 
     public LeiFeng createLeiFeng() {
-        return new Student();
+        return new Volunteer();
     }
 }
